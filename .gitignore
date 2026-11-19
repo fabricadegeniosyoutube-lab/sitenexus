@@ -1,0 +1,23 @@
+# Dependências e saídas locais
+node_modules/
+dist/
+build/
+coverage/
+
+# Credenciais e configurações locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporários, caches e metadados do sistema
+.tmp/
+tmp/
+temp/
+.cache/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
